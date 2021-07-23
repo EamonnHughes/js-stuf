@@ -1,12 +1,17 @@
-#output{
-    font-size: large;
-}
-
 #output .card {
+    display: inline-block;;
     border-width: 2px;
     border-style: solid;
     border-color: red;
     background-color: antiquewhite;
+    width: 2.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,3);
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: larger;
+
 }
 
 #output .score {
@@ -22,7 +27,32 @@
     
     border-width: 2px;
     border-style: solid;
+    width: 2rem;
+    height: 2rem;
     border-color: yellow;
     background-color: gold;
+    line-height: 2rem;
     text-align: center;
+    font-size: larger;
+    border-radius: 7rem;
+}
+
+#div{
+    font-size: large;
+}
+
+#enemyhand .card {
+    display: inline-block;;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    background-color: antiquewhite;
+    width: 2.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,3);
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: larger;
+
 }

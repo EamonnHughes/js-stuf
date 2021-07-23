@@ -62,17 +62,18 @@ function updateOutput() {
 
 function updateCoins() {
     const div = document.getElementById("koins");
+    
     div.innerText = coins;
 }
 
 function updateEHand() {
-
-    var aiHandOFirst = aiHand.slice(1);
+    var aiHand2 = aiHand.slice(1);
+    aiHand2.push
     const div = document.getElementById("enemyhand");
-    if (PIsDone == false) {
-        div.innerText = "[]" + aiHandOFirst;
+    if (PIsDone) {
+        div.innerHTML = aiHand2.map(card => "<span class = 'card'>" + card + "</span>").join(" ")
     } else {
-        div.innerText = aiHand;
+        div.innerHTML = aiHand.map(card => "<span class = 'card'>" + card + "</span>").join(" ")
     }
 }
 
