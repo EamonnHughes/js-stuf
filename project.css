@@ -1,0 +1,28 @@
+#output{
+    font-size: large;
+}
+
+#output .card {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    background-color: antiquewhite;
+}
+
+#output .score {
+    margin-left: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    color: black;
+}
+
+#koins{
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+    background-color: gold;
+    text-align: center;
+}

@@ -55,7 +55,9 @@ function checkAce(Hand) {
 
 function updateOutput() {
     const outputDiv = document.getElementById("output");
-    outputDiv.innerText = pHand + ": " + HandValue(pHand);
+    outputDiv.innerHTML =
+        pHand.map(card => "<span class='card'>" + card + "</span>").join(" ") +
+        "<span class='score'>" + HandValue(pHand) + "</span>";
 }
 
 function updateCoins() {
